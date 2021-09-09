@@ -5,6 +5,7 @@ class CreateEvents < ActiveRecord::Migration[6.1]
       t.string :leader
       t.string :topic
       t.text :notes
+      t.datetime :date
 
       t.timestamps
     end

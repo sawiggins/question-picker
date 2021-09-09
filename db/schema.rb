@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_09_03_141203) do
     t.string "leader"
     t.string "topic"
     t.text "notes"
+    t.datetime "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
